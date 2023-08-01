@@ -1,0 +1,476 @@
+/*
+PARA TEXTOS
+font-family: 'Lato', sans-serif;
+PARA TITULO
+font-family: 'Lilita One', cursive;
+ADVERTENCIA
+font-family: 'PT Sans Caption', sans-serif;
+*/
+
+/* 
+PALETA DE COLORES 
+#FF595E rosa oscuro
+#FF999C rosa claro
+#FFCA3A amarillo oscuro
+#FFDE85 aamarillo claro
+#8AC926 verde oscuro
+#C3E986 verde claro
+#1982C4 celeste oscuro
+#93CDF1 celeste claro
+#6A4C93 violeta oscuro
+#BEAED6 violeta claro
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* SOLO index.html */
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./asset/img/dos/bannerr.jpg);
+    background-size:cover;
+}
+
+.glass{
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.54);
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.glass h1{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 8rem;
+    text-transform: uppercase;
+    text-decoration: blink;
+    color: #FF595E;
+    text-shadow: 3px 3px 16px #0f0404;
+    padding-bottom: 5rem;
+}
+
+.glass h2, p{
+    font-family: 'Lato', sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 2px 10px #0f0404;
+}
+
+.glass h2{
+    font-size: 3rem;
+}
+
+.glass p{
+    font-size: 2rem;
+}
+
+.copy{
+    margin-top: 150px;
+    padding-bottom: 30px;
+    font-size: 0.75rem;
+    color:#ffb026;
+    text-shadow: 1px 1px 2px #0f0404;
+}
+
+/* TODOS
+ 1.malkayluke.html 
+ 1.2.origen.html 
+ 2.lulu.html 
+*/
+
+.lulumolesta{
+    position: fixed;
+    left: -1rem;
+    bottom: 4rem;
+}
+
+.lulumolesta img{
+    width: 8rem;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+}
+
+.menu{
+    background-color:#FFCA3A; 
+    width: 100%;
+    height: 100px;
+    padding: 5px 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo img{
+    max-width: 7rem;
+}
+
+.menu ul{
+    display: flex;
+    list-style:none;
+    gap: 1rem;
+}
+
+.menu ul li a{
+    padding-left: 40px;
+    text-decoration: none; 
+    color: #6A4C93;
+    font-size: 20px;
+    font-weight: bold; 
+    font-family: 'Lato', sans-serif;
+}
+
+.slogan{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%); ;
+    font-family: 'Lilita One', cursive;
+    color:#6A4C93;
+    text-shadow: 1px 2px 1px #0f0404;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.slogan div h1{
+    font-size: 9rem;
+    
+}
+
+.slogan div p{
+    font-size: 5rem;
+    color:#6A4C93;
+    font-family: 'Lilita One', cursive;
+    text-shadow: 1px 2px 1px #0f0404;
+    padding-bottom: 120px;
+    
+}
+
+.slogan div img{
+    width:35rem;
+    border-radius: 30px;
+    padding-bottom: 55px;
+}
+
+.pie{
+    background-color: #8AC926;
+    background-position: right;
+    width: 100%;
+    height: 150px;
+}
+
+.pie p{
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    color:#FF595E;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 20px;
+    
+}
+
+.fa-brands, .fa-solid{
+    color:#FF595E;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px #0f04043d;
+}
+
+footer .copy{
+    text-shadow: none;
+    text-shadow: 1px 1px 1px #0f04043d;
+    align-self: center;    
+}
+
+/* Origen */
+
+.heroorigen{
+    width: 100%;
+    height: 100px;
+   
+}
+.arbol {
+    width: 100%;
+    background-color:#C3E986;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.arbol h2{
+    font-family: 'Lilita One', cursive;
+    font-size: 3rem;
+    text-align: center;
+    color: #6A4C93;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.arbol img{
+    width: 800px;
+}
+
+.mapa{
+    width: 100%;
+    background-color: #93CDF1 ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.mapa h2{
+    font-family: 'Lilita One', cursive;
+    font-size: 3rem;
+    text-align: center;
+    color: #6A4C93;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mapa p{
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    text-align: justify;
+    color: #6A4C93;
+    padding: 20px 80px ;
+    text-shadow: none;
+}
+
+.mapa iframe {
+    padding-bottom: 20px;
+}
+
+/* nosotros */
+.nosotros{
+    width: 100%;
+    background-color: #FFDE85 ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.nosotros img{
+    width: 300px;
+    border-radius: 30px;
+
+}
+
+.nosotros .cart{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #FF999C ;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+}
+
+.nosotros .cart h3{
+    font-family: 'Lilita One', cursive;
+    font-size: 3rem;
+    text-align: justify;
+    color: #6A4C93;
+    padding: 20px 80px 0px 80px ;
+    text-shadow: none;
+}
+
+.nosotros .cart p{
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    text-align: justify;
+    color: #6A4C93;
+    padding: 15px 200px ;
+    text-shadow: none;
+}
+
+.nosotros .cart .fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+/*
+SOLO 2.lulu.html 
+#B79745 dorado
+#D5888E rosa viejo
+#89023E rosa oscuro
+#30343F gris claro
+#1B2021 gris oscuro
+*/
+
+.menululu{
+    background-color:#1B2021; 
+    width: 100%;
+    height: 100px;
+    padding: 5px 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none; 
+    list-style: none;
+    
+}
+
+.menululu li a{
+    color: #D5888E;
+    padding-left: 40px;
+    text-decoration: none; 
+    font-size: 20px;
+    font-weight: bold; 
+    font-family: 'Lato', sans-serif;
+   
+}
+
+.sloganlulu{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient( 135deg, #FFF5C3 10%, #9452A5 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.sloganlulu .imglulu{
+    margin-top: -200px;
+
+}
+
+.sloganlulu h2{
+    font-family: 'Lilita One', cursive;
+    color:#89023E;
+    text-shadow: 1px 2px 1px #0f0404;
+    text-align: left;
+    font-size: 7rem;
+}
+
+.sloganlulu img{
+    width: 35rem;
+    filter: drop-shadow(0px -20px 30px #f2ef4f74)
+        
+}
+
+.lulusiguemolesta{
+    position: absolute;
+    right: 0px;
+    top: 9rem;
+}
+
+.lulusiguemolesta img{
+    width: 18rem;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: -1px 1px 1px 1px #0f04045b;
+}
+
+
+.yolulu{
+    width: 100%;
+    background-color: #1B2021 ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.yolulu img{
+    width: 300px;
+    border-radius: 30px;
+}
+
+.yolulu .cartlulu{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #89023E ;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+}
+
+.yolulu .cartlulu h3{
+    font-family: 'Lilita One', cursive;
+    font-size: 3rem;
+    text-align: center;
+    color: #B79745;
+    padding: 20px 80px 0px 80px ;
+    text-shadow: none;
+}
+
+.yolulu .cartlulu p{
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: #B79745;
+    padding: 15px 200px ;
+    text-shadow: none;
+}
+
+.yolulu .cartlulu .fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 50px;
+} 
+
+
+.pielulu{
+    background-color: #1B2021 ;
+    width: 100%;
+    height: 150px;
+}
+
+.pielulu p{
+    text-shadow: none;
+    text-shadow: 1px 1px 1px #0f04043d;
+    align-self: center;    
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    color:#FF595E;
+}
+
